@@ -153,7 +153,7 @@
     </div>
     {{-- end confirm delete --}}
 
-    {{-- tes commi --}}
+    {{-- tes commit --}}
 @endsection
 
 @section('page-script')
