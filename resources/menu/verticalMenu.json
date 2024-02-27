@@ -1,0 +1,40 @@
+{
+  "menu": [
+    {
+      "url": "administrator/dashboard",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+      "badge": [
+        "danger",
+        "5"
+      ]
+    },
+    {
+      "menuHeader": "Components"
+    },
+    {
+      "name": "Data Pendaftaran",
+      "icon": "menu-icon tf-icons bx bx-collection",
+      "slug": "data-pendaftaran.index",
+      "url": "administrator/data-pendaftaran"
+    },
+    {
+      "name": "Kegiatan",
+      "icon": "menu-icon tf-icons bx bx-collection",
+      "slug": "data-kegiatan",
+      "submenu": [
+        {
+          "url": "administrator/data-kegiatan",
+          "name": "Data Kegiatan",
+          "slug": "data-kegiatan.index"
+        },
+        {
+          "url": "administrator/data-kegiatan-peserta",
+          "name": "Data Kegiatan Peserta",
+          "slug": "data-kegiatan-peserta.index"
+        }
+      ]
+    }
+  ]
+}
